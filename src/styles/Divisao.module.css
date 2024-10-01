@@ -1,0 +1,98 @@
+.flash_sales {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+}
+
+.today_text {
+    color: #DB4444;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
+}
+
+.time_block {
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.75rem;
+}
+
+.colon {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #DB4444;
+}
+
+.navigation {
+    display: flex;
+    align-items: end;
+    margin-right: 5%;
+}
+
+.nav_button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+    cursor: pointer;
+}
+
+.retangulo {
+    width: 10px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #DB4444;
+    margin-right: 0.5rem;
+}
+
+.container {
+    margin-left: 100px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.buttonViewAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9%;
+    height: 40px;
+    margin-right: 8%;
+    background-color: #DB4444;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

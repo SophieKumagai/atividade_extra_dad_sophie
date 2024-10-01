@@ -1,0 +1,69 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+  width: 98vw;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.col h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.col p {
+  margin-bottom: 10px;
+}
+
+.app_stores {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "Qrcode GooglePlay"
+  "Qrcode AppStore";
+  height: 50%;
+  gap: 0;
+  height: 100px;
+}
+
+.app_stores img {
+    width: 100%;
+    height: 100%;
+}
+
+.social_media {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.social_media li {
+  margin-right: 10px;
+}
+
+.input {
+    border: 1px solid #fff;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    width: 200px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #FAFAFA;
+}

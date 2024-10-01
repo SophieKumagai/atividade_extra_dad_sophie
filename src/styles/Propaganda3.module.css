@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "ps5 ps5 women women"
+    "ps5 ps5 speaker perfume";
+    width: 85%;
+    color: #fff;
+    gap: 10px;
+}
+
+.produto_card {
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #000000;
+  padding: 20px;
+  position: relative;
+}
+
+
+.botao_texto {
+    cursor: pointer;
+    background-color: #000000;
+    border: none;
+    text-decoration: underline;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+}
+
+.imagem {
+    width: auto;
+    height: auto;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+}
+
+.descricao {
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    align-items: start;
+    text-align: left;
+}

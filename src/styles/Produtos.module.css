@@ -1,0 +1,28 @@
+.produtos {
+    display: flex;
+    flex-direction: row;
+}
+
+.produtos_list{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.see_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 40px;
+    background-color: #DB4444;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}

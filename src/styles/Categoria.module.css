@@ -1,0 +1,29 @@
+.container {
+    width: 170px;
+    height: 145px;
+    border: 1.5px rgb(97, 97, 97) solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.imagem {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    filter: grayscale(100%) brightness(0);
+}
+
+.container:hover{
+    background-color: #DB4444;
+    color: white;
+    cursor: pointer;
+}
+
+.container:hover .imagem {
+    filter: invert(1);
+    cursor: pointer;
+}

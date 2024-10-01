@@ -1,0 +1,30 @@
+.container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+    margin-top: 60px;
+}
+
+.imagem {
+    width: 15%;
+    height: 15%;
+    padding: 3px;
+    border-radius: 50%;
+    border: 6px solid #bdbdbd;
+    background-color: #000;
+}
+
+.titulo {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.texto {
+    font-size: 11px;
+    color: #000;
+}
